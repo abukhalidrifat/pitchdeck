@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  width: 90%;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.socialIconsTop li:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.whatIdoBtn{
+  background: white;
+    width: 40%;
+    padding: 12px;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+}
+.whatIdoBtn:hover{
+  background: black;
+  color: white;
+  border: 2px solid white;
+}
+.startedBtn{
+  background: white;
+  color: black;
+  border: 2px solid black;
+  width: 170px;
+  padding: 10px;
+}
+.startedBtn:hover{
+  background: black;
+  color: white;
+  border: 2px solid white;
+}
+/* .slick-slider{
+  height: 650px;
+} */
+@media only screen and (max-width: 600px) {
+    .imgSliderText{
+      display: none;
+    }   
+    .imgSliderImg{
+      width: 100% !important;
+    }
+    .quotePrevBtn{
+      left: 0 !important;
+    }
+    .quoteNextBtn{
+      right: 0;
+      left: 85%;
+    }
+    .getStartedWrapper{
+      flex-wrap: wrap;
+    }
+    .getStartedPBtn{
+      flex-direction: column;
+    }
+    .getStartedPBtn p{
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+}

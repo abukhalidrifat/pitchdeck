@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.imageWrapper {
+    height: 500px;
+}
+.imageWrapper img {
+    width: 500px;
+    height: 500px;
+}
+.intro{
+   padding: 70px;
+   background-color: white;
+   color: black;
+   width: 45%;
+}
+
+.intro .first{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.intro .second{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.intro .third{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        flex-wrap: wrap;
+    }
+    .intro{
+        width: 100%;
+    }
+    .imageWrapper img{
+        width: 100%;
+        margin-top: 15px;
+    }
+}
